@@ -1,0 +1,44 @@
+@import '../../static/CommonStyles/colors.scss';
+
+.containerLineIndic {
+   position:absolute;
+   left: 30px;
+   width:450px;
+}
+
+.containerLineIndic1 {
+   top: 95px;
+}
+
+.containerLineIndic2 {
+   top: 245px;
+}
+
+.containerLineIndic3 {
+   top: 395px;
+}
+
+.drawLine{
+    margin-left: 5px;
+   display:inline-block;
+   height: 3px;
+   width:445px;
+   background-color: $orange;
+   z-index: 9999;
+}
+
+.indicatorLeft, .indicatorRight {
+   position: absolute;
+   display: inline;
+   font-size: x-large;
+   color: $orange;
+   z-index: 999;
+}
+
+.indicatorLeft {
+   left:-20px;
+}
+
+.indicatorRight {
+   right: -20px;
+}
